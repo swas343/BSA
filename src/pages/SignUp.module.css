@@ -1,0 +1,46 @@
+.leftSection{
+    text-align: center;
+    background-color: #0D5F9A;
+    height: 100vh;
+    color: white;
+    font-weight: bolder;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSection{
+    /* text-align: center; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.signinBtn{
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    border: none;
+    display: block;
+    width: 60%;
+    background: #0D5F9A;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+    font-weight: bolder;
+}
+.signinBtn:hover{
+    color: white;
+}
+
+.content span{
+    display: block;
+    text-align: center;
+}

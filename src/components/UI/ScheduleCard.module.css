@@ -1,0 +1,16 @@
+.scheduleCard{
+    border-left: 5px solid;
+}
+
+.scheduleCard p{
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+.scheduleCard span{
+    color: #716a6a;
+    font-weight: 300;
+    display: block;
+    display: block;
+}

@@ -1,0 +1,16 @@
+.topProducts h3{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.topProducts span{
+    font-size: 13px;
+    color: grey;
+}
+.topProductDetails p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.topProductDetails span{
+    font-size: 12px;
+    font-weight: lighter;
+}

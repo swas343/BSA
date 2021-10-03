@@ -1,5 +1,9 @@
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -28,11 +32,34 @@
   color: #61dafb;
 }
 
+.main{
+  background-color: #F5F5F5;
+}
+
+.activeSidebar{
+  font-weight: bolder !important;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #EDEDED !important; 
+ }
+
+ .table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: #F5F5F5 !important; 
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #sm-center {
+    text-align: center !important;
   }
 }

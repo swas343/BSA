@@ -1,0 +1,42 @@
+.profileSection h2{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.profileSection img{
+    width: 100%;
+}
+
+.changeBtn{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: grey;
+    border: 1px solid #858585;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 3px 10px;
+    letter-spacing: 1px;
+}
+
+.profileSection input{
+    width: 100%;
+}
+
+.dangerZone h2{
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #AF0000;
+}
+
+.dangerZone button{
+    outline: none;
+    border: 1px solid #AF0000;
+    border-radius: 10px;
+    background-color: white;
+    color: #AF0000;
+    font-weight: bolder;
+    padding: 5px 25px;
+    width: 100%;
+}

@@ -1,0 +1,98 @@
+.leftSection {
+  text-align: center;
+  background-color: #0d5f9a;
+  height: 100vh;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightSection {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.rightSection input {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 7px 14px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.rightSection input[type="checkbox"] {
+  width: auto !important;
+  display: inline-block !important;
+  margin-right: 10px;
+}
+
+.rightSection a {
+  text-decoration: none;
+}
+
+.rightSection label {
+  margin-bottom: 5px;
+  color: black;
+}
+
+.rightSection span {
+  color: grey;
+}
+
+.content {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: black;
+  margin: 0;
+  font-size: 36px;
+}
+
+.content p {
+  font-weight: 500;
+}
+
+.content span {
+  display: block;
+  text-align: center;
+}
+
+.signinBtn {
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+  background: #0d5f9a;
+  border-radius: 10px;
+  color: white;
+  margin: 0 auto;
+  padding: 10px 5px;
+  font-weight: bolder;
+}
+.signinBtn:hover {
+  color: white;
+}
+
+.footer {
+  color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    width: auto;
+    padding: 10%;
+  }
+}

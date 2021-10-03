@@ -1,0 +1,23 @@
+.card{
+    border-radius: 20px;
+    /* background-color: #DDEFE0; */
+    padding: 15px;
+}
+
+.card i{
+    display: block;
+    float: right;
+    font-size: 20px;
+}
+
+.card p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card h3{
+    font-weight: bolder;
+    color: black;
+}

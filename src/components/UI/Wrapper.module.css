@@ -1,0 +1,14 @@
+.wrapper{
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+.wrapper label{
+    display: block;
+}
+
+.wrapper input{
+    display: block;
+}

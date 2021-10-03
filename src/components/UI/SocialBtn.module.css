@@ -1,0 +1,26 @@
+/* .socialBtn{
+    text-align: center;
+    margin: 0 auto;
+} */
+
+.socialBtn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    /* margin: 0 10px; */
+    color: rgb(162, 159, 159);
+    font-size: 12px;
+    height: 30px;
+    font-weight: 600;
+}
+.icon{
+    display: inline-block !important;
+    margin-right: 10px;
+}
+
+.icon img{
+    width: 20px;
+}
