@@ -40,6 +40,17 @@ body{
   font-weight: bolder !important;
 }
 
+.show > .btn-primary.dropdown-toggle{
+  color: black ;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.show > .btn-primary.dropdown-toggle:focus{
+  box-shadow: none !important;
+}
+
 .table-striped>tbody>tr:nth-child(odd)>td, 
 .table-striped>tbody>tr:nth-child(odd)>th {
    background-color: #EDEDED !important; 

@@ -8,9 +8,14 @@ import { NavLink } from 'react-router-dom';
 
 import Wrapper from "../components/UI/Wrapper";
 import SocialBtn from '../components/UI/SocialBtn';
-
+import GoogleAuth from "../components/UI/GoogleAuth";
 
 const SignIn = () => {
+
+  const noLoginMethod = () => {
+    alert('This login method has not been integrated yet. Please use google login');
+  }
+
   return (
     <Row className={classes.signin}>
       {/* xs="6" sm="6" md="6"  */}
@@ -24,24 +29,24 @@ const SignIn = () => {
 
           <Row className={`mb-3`}>
             <Col lg="6" className="mb-2 mb-md-0">
-              <SocialBtn icon={google} text="Sign in with Google" />
+              <GoogleAuth icon={google} text="Sign in with Google" />
             </Col>
             <Col lg="6">
-              <SocialBtn icon={apple} text="Sign in with Apple" />
+              <SocialBtn icon={apple} text="Sign in with Apple" onClick={noLoginMethod} />
             </Col>
           </Row>
 
           <Wrapper>
             <Col lg="12">
-              <label className="mb-1" for="email">Email address</label>
+              <label className="mb-1" htmlFor="email">Email address</label>
               <input type="email" placeholder="Enter Email" />
 
-              <label className="mb-1" for="password">Password</label>
+              <label className="mb-1" htmlFor="password">Password</label>
               <input type="password" placeholder="Enter Password" />
 
               <NavLink className="mt-3 mb-3 d-block" to="#" >Forgot password?</NavLink>
 
-              <NavLink to="/dashboard" className={` mt-2 ${classes.signinBtn}`}>Sign In</NavLink>
+              <NavLink to="#" className={` mt-2 ${classes.signinBtn}`} onClick={noLoginMethod} >Sign In</NavLink>
             </Col>
           </Wrapper>
 

@@ -9,6 +9,7 @@ import { Row, Col } from "react-bootstrap";
 import Wrapper from "../components/UI/Wrapper";
 import SocialBtn from "../components/UI/SocialBtn";
 import SignUpForm from "../components/signin/SignIUpForm";
+import GoogleAuth from "../components/UI/GoogleAuth";
 
 const SignUp = () => {
   return (
@@ -23,7 +24,7 @@ const SignUp = () => {
 
           <Row className={`mb-2`}>
             <Col lg="6" className="mb-2 mb-md-0">
-              <SocialBtn icon={google} text="Sign up with Google" />
+              <GoogleAuth icon={google} text="Sign up with Google" />
             </Col>
             <Col lg="6">
               <SocialBtn icon={apple} text="Sign up with Apple" />

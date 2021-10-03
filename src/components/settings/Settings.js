@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import classes from "./Settings.module.css";
-import user from "../../assets/user.png";
 
 import Header from "../includes/Header";
 import Wrapper from "../UI/Wrapper";
@@ -9,7 +8,12 @@ import ProfileForm from "./ProfileForm";
 import AccountForm from "./AccountForm";
 import { ToggleButton } from "react-bootstrap";
 
+import AuthCtx from "../../store/auth-ctx";
+import { useContext } from "react";
+
 const Setting = () => {
+  const authCtx = useContext(AuthCtx);
+  
   return (
     <Container>
       <Header page="Settings" />
@@ -24,7 +28,7 @@ const Setting = () => {
             </Row>
             <Row className={` mt-3 ${classes.profileSection}`}>
               <Col lg="3">
-                <img src={user} alt="user profile" />
+                <img src={authCtx.imageUrl} alt="user profile" />
                 <div className="text-center mt-2">
                   <button className={classes.changeBtn}>Change</button>
                 </div>
