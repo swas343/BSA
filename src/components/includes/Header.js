@@ -23,7 +23,7 @@ const Header = (props) => {
         <DropdownButton
           className={`pull-right ${classes.dropdown}`}
           eventKey={3}
-          title={<img src={authCtx.imgUrl} alt="user profile" />}
+          title={<img src={authCtx.imageUrl} alt="user profile" />}
         >
           <li eventKey="3" onClick={authCtx.logout}>
             <i className="fa fa-sign-out fa-fw"></i> Logout
