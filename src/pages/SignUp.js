@@ -1,4 +1,6 @@
 import classes from "./Signin.module.css";
+import signUpClasses from "./SignUp.module.css";
+
 import google from "../assets/icons/google.png";
 import apple from "../assets/icons/apple.jpg";
 
@@ -13,12 +15,12 @@ import GoogleAuth from "../components/UI/GoogleAuth";
 
 const SignUp = () => {
   return (
-    <Row className={classes.signin}>
-      <Col sm="5" md="5" lg="5" className={`d-none d-sm-flex ${classes.leftSection}`}>
+    <Row className={`m-0 ${classes.signin}`}>
+      <Col sm="5" md="5" lg="5" className={`d-none d-sm-flex ${signUpClasses.leftSection}`}>
         <h1>Dash.</h1>
       </Col>
       <Col sm="7" md="7" lg="7" className={`pt-3 pt-md-0 ${classes.rightSection}`}>
-        <div className={classes.content}>
+        <div className={signUpClasses.content}>
           <h1>Create an account</h1>
           <p>Create an account to use dashboard</p>
 

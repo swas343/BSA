@@ -21,7 +21,6 @@ export const AuthContextProvider = (props) =>{
     const isLoggedIn = !!token;
     
     const loginHandler = (authData) =>{
-        console.log(authData)
         const parsedData = JSON.stringify({...authData});
         localStorage.setItem('auth',parsedData)
         setToken(authData.googleId);

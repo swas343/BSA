@@ -5,7 +5,7 @@ import Main from "../components/dashboard/Main";
 const Dashboard = () => {
   return (
     <div className="main">
-      <Row>
+      <Row className="m-0">
         <Col md={3} lg={3}>
           <Sidebar page="dashboard" />
         </Col>

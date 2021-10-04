@@ -17,7 +17,7 @@ const SignIn = () => {
   }
 
   return (
-    <Row className={classes.signin}>
+    <Row className={`m-0 ${classes.signin}`}>
       {/* xs="6" sm="6" md="6"  */}
       <Col sm="5" md="5" lg="5" className={`d-none d-sm-flex ${classes.leftSection}`}>
         <h1>Dash.</h1>

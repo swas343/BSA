@@ -53,12 +53,12 @@ const Main = () => {
       <Row className="mt-5">
         <Col lg="12">
           <Wrapper>
-            <GraphCard data={lineData} type="line" />
+            <GraphCard data={lineData} heading="Activities" type="line" />
           </Wrapper>
         </Col>
       </Row>
 
-      <Row className={`mt-5`}>
+      <Row className={`mt-5 mb-5`}>
         <Col lg="6" className={`mb-3 mb-md-0 ${classes.topProducts}`}>
           <Wrapper>
             <Row>
@@ -72,7 +72,7 @@ const Main = () => {
               </Col>
             </Row>
             <Row className={`mt-3 ${classes.topProductDetails}`}>
-              <Col lg="6">
+              <Col lg="6" className={classes.pieContainer}>
                 <GraphCard data={Piedata} type="pie" />
               </Col>
               <Col lg="6">

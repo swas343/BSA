@@ -36,6 +36,10 @@ body{
   background-color: #F5F5F5;
 }
 
+.m-0{
+  margin: 0 !important;
+}
+
 .activeSidebar{
   font-weight: bolder !important;
 }

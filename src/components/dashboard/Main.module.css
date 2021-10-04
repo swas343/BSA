@@ -9,8 +9,12 @@
 .topProductDetails p{
     font-size: 15px;
     font-weight: bolder;
+    margin: 0;
 }
 .topProductDetails span{
     font-size: 12px;
     font-weight: lighter;
+}
+.pieContainer{
+    height: 150px;
 }

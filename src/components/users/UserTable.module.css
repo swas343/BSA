@@ -3,20 +3,32 @@
     font-weight: bolder;
 }
 
-.heading input{
+.heading span{
     background-color: #F5F5F5;;
     border-radius: 10px;
     outline: none;
     border: none;
     width: 30%;
-    padding: 7px 14px;
-    margin-bottom: 20px;
+    height: 30px;
+    padding: 7px 0;
     font-size: 13px;
     display: inline-block;
 }
+.heading input{
+    background-color: #F5F5F5;;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 80%;
+    display: inline-block;
+    margin-left: 14px;
+}
+.searchBar i{
+    color: grey;
+}
 
 .addBtn{
-    background-color: #519BD0;
+    background-color: #0D5F9A;
     border-radius: 10px;
     outline: none;
     border: none;

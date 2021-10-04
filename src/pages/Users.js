@@ -8,7 +8,7 @@ import Header from "../components/includes/Header";
 const Users = () => {
   return (
     <div className="main">
-      <Row>
+      <Row className="m-0">
         <Col md={3} lg={3}>
           <Sidebar page="users" />
         </Col>

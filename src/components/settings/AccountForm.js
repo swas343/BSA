@@ -13,31 +13,37 @@ const AccountForm = () => {
       </Row>
       <Row>
         <Col lg="12">
-          <input type="text" defaultValue="suryawigunaa@gmail.com" />
+          <input className="w-100" type="text" defaultValue="suryawigunaa@gmail.com" />
         </Col>
       </Row>
       <Row>
         <Col lg="6">
-          <label>Current Password</label>
+          <label className="mt-2">Current Password</label>
         </Col>
       </Row>
       <Row>
         <Col lg="12">
-          <input type="password" defaultValue="+1283716291" />
+          <span>
+            <input className="m-0" type="password" defaultValue="+1283716291" />
+            <i className="fa fa-eye ms-3"></i>
+          </span>
         </Col>
       </Row>
       <Row>
         <Col lg="6">
-          <label>New Password</label>
+          <label className="mt-4">New Password</label>
         </Col>
       </Row>
       <Row>
         <Col lg="12">
-          <input type="text" defaultValue="123456" />
+        <span>
+            <input className="m-0" type="text" defaultValue="123456" />
+            <i className="fa fa-eye-slash ms-3"></i>
+          </span>
         </Col>
       </Row>
         <Row>
-            <Col lg="12" className="text-end">
+            <Col lg="12" className="text-end mt-4">
                 <SubmitButton text="Save" />
             </Col>
         </Row>

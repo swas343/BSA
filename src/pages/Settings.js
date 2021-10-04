@@ -6,7 +6,7 @@ import Setting from "../components/settings/Settings";
 const Settings = () => {
   return (
     <div className="main">
-      <Row>
+      <Row className="m-0">
         <Col md={3} lg={3}>
           <Sidebar page="settings" />
         </Col>

@@ -33,7 +33,11 @@ const UserTable = () => {
             <Row className={classes.heading}>
                 <Col lg="3" id="sm-center" className="text-start"><h2>User Records</h2></Col>
                 <Col lg="9" className="text-end">
-                    <input className="me-3 " type="text" placeholder="Search in table..." ref={searchRef} onChange={searchTable} />
+                    <span className={`${classes.searchBar} me-3 text-start`}>
+                        <input type="text" placeholder="Search in table..." ref={searchRef} onChange={searchTable} />
+                        <i className="fa fa-search"></i>
+                    </span>
+
                     <button className={classes.filterBtn}><i className="fa fa-filter"></i> Filter</button>
                     <button className={`ms-3 ${classes.addBtn}`}><i className="fa fa-plus"></i> Add</button>
                 </Col>

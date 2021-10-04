@@ -27,12 +27,12 @@ export const lineData = {
 
   export const Piedata = {
     labels: [
-      'Red',
-      'Blue',
-      'Yellow'
+      'Basic tees',
+      'Custom Short Pants',
+      'Super Hoodies'
     ],
     datasets: [{
-      label: 'My First Dataset',
+      label: 'Top Products',
       data: [300, 50, 100],
       backgroundColor: [
         'rgb(255, 99, 132)',
